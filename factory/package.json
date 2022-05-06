@@ -2,14 +2,19 @@
   "name": "factory",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node build/index.js start-server"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Wellici Araujo",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^17.0.31",
     "typescript": "^4.6.4"
   }
 }
