@@ -1,4 +1,4 @@
-import { ICalculator } from "../interfaces/ICalculator";
+import { ICalculator } from "../interfaces";
 
 export class StackCalculator implements ICalculator {
   private stack: number[];
